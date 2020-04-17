@@ -1,4 +1,3 @@
-<script>
 		$(document).ready(function(){
 
 			$("#logotipo").on("mouseover",function(){
@@ -14,5 +13,3 @@
 
 
 		});
-	
-	</script>
