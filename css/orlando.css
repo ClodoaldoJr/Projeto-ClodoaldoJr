@@ -97,8 +97,7 @@ header #logotipo {
 	margin-left: 250px;
 }
 header #logotipo.efeito {
-	transition: 1s;
-	
+	transform: scale(1.1)
 }
 header .header-purple {
 	width: 100%;
