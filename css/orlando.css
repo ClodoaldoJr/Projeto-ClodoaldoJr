@@ -210,11 +210,15 @@ section .container {
 	text-align: center;
 
 }
+section .News-slider .slide {
+	width: 60px;
+	margin-left: 10px;
 
+}
 
 section .News-slider .slide{
 	transform: scale(0.6);
-	transition: 1s;
+	transition: 2s;
 }
 
 section .News-slider .slide.slick-center {
