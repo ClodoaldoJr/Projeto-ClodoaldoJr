@@ -210,18 +210,14 @@ section .container {
 	text-align: center;
 
 }
-section .slide {
-	width: 60px;
-	margin-left: 10px;
 
-}
 
-section .News-slider .slide {
+section .News-slider .slide{
 	transform: scale(0.6);
-	transition: 1s
+	transition: 1s;
 }
 
-section .News-slider .slide,slick-center {
+section .News-slider .slide.slick-center {
 	transform: scale(1);
 }
 
