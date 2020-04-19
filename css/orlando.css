@@ -98,6 +98,7 @@ header #logotipo {
 }
 header #logotipo.efeito {
 	transform: scale(1.1)
+	
 }
 header .header-purple {
 	width: 100%;
@@ -201,20 +202,47 @@ section	#estatisticas .row {
 }
 #news hr {
 	border: #FDE192 solid 4px;
-	width: 200px;
-	margin: 0 auto;
+	width: 209px;
+	margin-top: 0px;
 }
-#news .thumbnails {
-	margin-top: 20px;
-	font-weight: bold;
+
+section .container {
+	text-align: center;
+
 }
-#news .thumbnails h3 {
-	color: #5E299A;
-	font-size: 18px
+section .slide {
+	width: 60px;
+	margin-left: 10px;
+
 }
-#news .thumbnails time {
-	margin-top: 50px;
-	font-family: 'OpenSans-Light';
+
+section .News-slider .slide {
+	transform: scale(0.6);
+	transition: 1s
+}
+
+section .News-slider .slide,slick-center {
+	transform: scale(1);
+}
+
+.arrow {
+  display: inline-block;
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: 70% auto;
+  background-position: center;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+#arrow-prev {
+  background-image: url('../img/arrow_prev.svg');
+}
+
+#arrow-next {
+  background-image: url('../img/arrow_next.svg');
 }
 #call-to-action {
 	text-align: center;
