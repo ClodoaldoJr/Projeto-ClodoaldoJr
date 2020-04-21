@@ -4,6 +4,11 @@
 	font-size: 1em;
 }
 
+@font-face{
+	font-family: "Open-Sans-light";
+	src: url:("../fonts/Open_Sans/Open-Sans-light.ttf");
+	font-size: 1em;
+}
 
 
 body {
@@ -135,7 +140,8 @@ header .header-purple {
 	width: 100%;
 	height: 110px;
 	background-color: #5E299A;
-	opacity: 0.9;
+
+	
 }
   .search-box {
   	position: absolute;
@@ -181,23 +187,37 @@ header .header-purple {
 	width: 100%;
 	height: 728px;
 	background: no-repeat;
+	margin-top: 116px;
 }
-section h1 {
-	color: #FFF;
-	top: 300px;
+
+#Orlando-city h1 {
 	position: relative;
-	font-size: 92px;
-	text-shadow: 2px 2px 2px rgba( 0, 0, 0, .45	);
-	margin-left: 50px;
-	z-index: 5;
+	font-size: 96px;
+    margin-top: 415px;
+    color: #FFF;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .65);
+    font-family: 'Open-Sans-light';
+    margin-left: 30px;
 }
-section h1 small {
+
+#Orlando-city h1 small {
 	font-size: 32px;
-	display: block;
-	color: #FFF;
-	margin-left: 75px;
-	
+    color: #FFF;
+    display: block;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .65);
+    font-family: 'Open-Sans';
+    font-weight: bold;
+
 }
+
+section .Orlando-City {
+	text-align: center;
+	position: relative;
+	font-size: 16px;
+
+
+}
+
 section .section-purple {
 	background-color: #5E299A;
 	width: 100%;
