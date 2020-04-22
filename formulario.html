@@ -94,7 +94,7 @@
 
 	<section>
 				
-			<form class="form-inline">
+			<form class="form-inline" method="POST" action="./email.php">
   <div class="form-group">
     <label for="exampleInputName1">Name</label>
     <input type="text" class="form-control" id="exampleInputName2" placeholder="Nome">
@@ -145,8 +145,8 @@
 				<label for="sim">Não</label>
 			</div>
 			<div class="form-group">
-				<label for="profissão">Clubes</label>
-				<select name="estados" id="estados">
+				<label for="clubes">Clubes</label>
+				<select name="clubes" id="clubes">
 				<optgroup label="Conferencia Leste">
 					<option value="AU"> Atlanta United (EUA)</option>
 					<option value="CF">Chicago Fire (EUA)</option>
@@ -178,7 +178,7 @@
 			</div>
 
 			 <div> 
-			 	<button type="submit" class="btn btn-primary">Cadastrar</button>
+			 	<button type="submit" class="btn btn-primary">Enviar</button>
   			</div>
 
 		</form>
