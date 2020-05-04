@@ -452,5 +452,10 @@ footer .list-socials i {
 
 .form-inline {
 	margin-top: 196px;
-	
+	margin-left: 2px;	
+}
+
+.form-group {
+	margin-left: 5px;
+
 }
